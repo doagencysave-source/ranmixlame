@@ -67,6 +67,12 @@ figure:hover img{transform:scale(1.04)}
 #prog{position:fixed;top:0;left:0;height:5px;width:0;z-index:60;background-color:#E07A6F;background-image:repeating-linear-gradient(90deg,#1A1A1A 0 6px,transparent 6px 12px)}
 @media (prefers-reduced-motion: reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
 </style>
+<style>
+.sw{width:30px;height:30px;min-width:30px;border-radius:50%;border:2px solid #D9D0C4;background-size:cover;background-position:center;cursor:pointer;padding:0;box-shadow:none!important}
+.sw:hover{transform:scale(1.12)!important;box-shadow:none!important}
+.sw.on{border-color:#1A1A1A;outline:2px solid #E07A6F;outline-offset:1px}
+.pimg{transition:opacity .25s ease,transform .6s ease}
+</style>
 </head>
 <body>
 <div id="prog" aria-hidden="true"></div>
@@ -155,10 +161,11 @@ figure:hover img{transform:scale(1.04)}
 <p style="margin: 0; font-size: 14px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #5C5550">Lookbook</p>
 <h2 class="rv" style="margin: 0; font-size: 48px; line-height: 1.1; font-weight: 900; letter-spacing: -0.02em">Càng mix càng mê</h2>
 </div>
-<div class="lb" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px">
-<img src="https://drive.google.com/thumbnail?id=1UMpON_u-RqjKuXC3WsyMk0g2UkInePmI&sz=w1600" alt="Hai bạn trẻ bên quầy balo và túi khăn rằn" loading="lazy" style="width: 100%; aspect-ratio: 5 / 4; object-fit: cover; border-radius: 20px">
-<img src="https://drive.google.com/thumbnail?id=1RkQPY7T59irHeq3wEPogdAfygMA2InSW&sz=w1600" alt="Bạn trẻ quàng khăn rằn đỏ chọn túi khăn rằn" loading="lazy" style="width: 100%; aspect-ratio: 5 / 4; object-fit: cover; border-radius: 20px">
-<img src="https://drive.google.com/thumbnail?id=19Jx3gRXYmGxpLZGT-rW2Hxgor99j3LAr&sz=w1600" alt="Quầy túi, balo và nón khăn rằn nhiều màu" loading="lazy" style="width: 100%; aspect-ratio: 5 / 4; object-fit: cover; border-radius: 20px">
+<div class="lb" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
+<img src="https://drive.google.com/thumbnail?id=1zmXAlr2UF6ez3fVHLgOydWtOknmTxmJx&sz=w1200" alt="Lookbook Rằn Mix Là Mê 1" loading="lazy" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 20px">
+<img src="https://drive.google.com/thumbnail?id=1SJ-0U_XK4ennh2MQn7bhKjSZc5uwwv_4&sz=w1200" alt="Lookbook Rằn Mix Là Mê 2" loading="lazy" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 20px">
+<img src="https://drive.google.com/thumbnail?id=13dE2037tPczPe-LLw3EWIwBjIxGZBO8A&sz=w1200" alt="Lookbook Rằn Mix Là Mê 3" loading="lazy" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 20px">
+<img src="https://drive.google.com/thumbnail?id=1SFhxKeKSRWfCbR_cgTXW0odDjv3c6ISw&sz=w1200" alt="Lookbook Rằn Mix Là Mê 4" loading="lazy" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 20px">
 </div>
 </section>
 
@@ -174,105 +181,86 @@ figure:hover img{transform:scale(1.04)}
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px">
 
 <div class="pcard rv" style="background: #FFFFFF; border: 2px solid #1A1A1A; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
-<img src="https://drive.google.com/thumbnail?id=1RkQPY7T59irHeq3wEPogdAfygMA2InSW&sz=w600" alt="Khăn rằn quàng cổ" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
-<div style="padding: 16px; display: flex; flex-direction: column; gap: 6px">
-<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550">Phụ kiện</span>
-<span style="font-size: 18px; font-weight: 800">Khăn quàng cổ</span>
-<span style="font-size: 15px; font-weight: 700; color: #B4483C">[GIÁ BÁN]</span>
+<img class="pimg" src="https://drive.google.com/thumbnail?id=1ni7QUeqxYxZQcH7awPnnxYM9fX3FaPkC&sz=w800" alt="Rằn Signature Scarf" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
+<div style="padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px">
+<div class="swatches" style="display: flex; gap: 6px; flex-wrap: wrap"><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1_Zsp3lJB8hS43BktjKvJsiz1LdOEZoW-&sz=w800" aria-label="Rằn Signature Scarf – mẫu màu 1" style="background-image:url('https://drive.google.com/thumbnail?id=1_Zsp3lJB8hS43BktjKvJsiz1LdOEZoW-&sz=w80')"></button><button type="button" class="sw on" data-src="https://drive.google.com/thumbnail?id=1ni7QUeqxYxZQcH7awPnnxYM9fX3FaPkC&sz=w800" aria-label="Rằn Signature Scarf – mẫu màu 2" style="background-image:url('https://drive.google.com/thumbnail?id=1ni7QUeqxYxZQcH7awPnnxYM9fX3FaPkC&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1fDspkmspUYsVybzmKQBhOnrt4m6u1n0A&sz=w800" aria-label="Rằn Signature Scarf – mẫu màu 3" style="background-image:url('https://drive.google.com/thumbnail?id=1fDspkmspUYsVybzmKQBhOnrt4m6u1n0A&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1ZeF3V9B77j_xHO0f3RFLarhkqy7ixMmg&sz=w800" aria-label="Rằn Signature Scarf – mẫu màu 4" style="background-image:url('https://drive.google.com/thumbnail?id=1ZeF3V9B77j_xHO0f3RFLarhkqy7ixMmg&sz=w80')"></button></div>
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550; margin-top: 4px">Phụ kiện</span>
+<span style="font-size: 18px; font-weight: 800">Rằn Signature Scarf</span>
+<span style="font-size: 17px; font-weight: 800; color: #B4483C">49.000đ</span>
 </div>
 </div>
-
 <div class="pcard rv" style="background: #FFFFFF; border: 2px solid #1A1A1A; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
-<img src="https://drive.google.com/thumbnail?id=1UMpON_u-RqjKuXC3WsyMk0g2UkInePmI&sz=w600" alt="Túi xách khăn rằn" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
-<div style="padding: 16px; display: flex; flex-direction: column; gap: 6px">
-<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550">Phụ kiện</span>
-<span style="font-size: 18px; font-weight: 800">Túi xách</span>
-<span style="font-size: 15px; font-weight: 700; color: #B4483C">[GIÁ BÁN]</span>
+<img class="pimg" src="https://drive.google.com/thumbnail?id=1rREQhxKXxchr8NCwte-5M-xYSmTAnmAw&sz=w800" alt="Rằn Tie" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
+<div style="padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px">
+<div class="swatches" style="display: flex; gap: 6px; flex-wrap: wrap"><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1GeBT2NCO6eyOn2pd5qitiKxPJ1gDw_S6&sz=w800" aria-label="Rằn Tie – mẫu màu 1" style="background-image:url('https://drive.google.com/thumbnail?id=1GeBT2NCO6eyOn2pd5qitiKxPJ1gDw_S6&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1zw5ROdlFGfduLOJDjmiH0dZ-jBdbfgiJ&sz=w800" aria-label="Rằn Tie – mẫu màu 2" style="background-image:url('https://drive.google.com/thumbnail?id=1zw5ROdlFGfduLOJDjmiH0dZ-jBdbfgiJ&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1nHBiQ0Vz1T-ci4BZjQZW9D8xsQX1bOyM&sz=w800" aria-label="Rằn Tie – mẫu màu 3" style="background-image:url('https://drive.google.com/thumbnail?id=1nHBiQ0Vz1T-ci4BZjQZW9D8xsQX1bOyM&sz=w80')"></button><button type="button" class="sw on" data-src="https://drive.google.com/thumbnail?id=1rREQhxKXxchr8NCwte-5M-xYSmTAnmAw&sz=w800" aria-label="Rằn Tie – mẫu màu 4" style="background-image:url('https://drive.google.com/thumbnail?id=1rREQhxKXxchr8NCwte-5M-xYSmTAnmAw&sz=w80')"></button></div>
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550; margin-top: 4px">Phụ kiện</span>
+<span style="font-size: 18px; font-weight: 800">Rằn Tie</span>
+<span style="font-size: 17px; font-weight: 800; color: #B4483C">29.000đ</span>
 </div>
 </div>
-
 <div class="pcard rv" style="background: #FFFFFF; border: 2px solid #1A1A1A; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
-<img src="https://drive.google.com/thumbnail?id=19Jx3gRXYmGxpLZGT-rW2Hxgor99j3LAr&sz=w600" alt="Balo khăn rằn" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
-<div style="padding: 16px; display: flex; flex-direction: column; gap: 6px">
-<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550">Phụ kiện</span>
-<span style="font-size: 18px; font-weight: 800">Balo</span>
-<span style="font-size: 15px; font-weight: 700; color: #B4483C">[GIÁ BÁN]</span>
+<img class="pimg" src="https://drive.google.com/thumbnail?id=1yWBRXMNf7ap5wUWob869tE43mlhXYVPY&sz=w800" alt="Rằn Street Cap" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
+<div style="padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px">
+<div class="swatches" style="display: flex; gap: 6px; flex-wrap: wrap"><button type="button" class="sw on" data-src="https://drive.google.com/thumbnail?id=1yWBRXMNf7ap5wUWob869tE43mlhXYVPY&sz=w800" aria-label="Rằn Street Cap – mẫu màu 1" style="background-image:url('https://drive.google.com/thumbnail?id=1yWBRXMNf7ap5wUWob869tE43mlhXYVPY&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1RDJZT7Mxh99v7YiPwwUCZvm8ugCwrFNV&sz=w800" aria-label="Rằn Street Cap – mẫu màu 2" style="background-image:url('https://drive.google.com/thumbnail?id=1RDJZT7Mxh99v7YiPwwUCZvm8ugCwrFNV&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1n4s3mIUiKa7ZE13C0uGieuJWhtbsB3EQ&sz=w800" aria-label="Rằn Street Cap – mẫu màu 3" style="background-image:url('https://drive.google.com/thumbnail?id=1n4s3mIUiKa7ZE13C0uGieuJWhtbsB3EQ&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=11FO7hae7IZHWepmRlZ-tc-M_tjH9Ptp_&sz=w800" aria-label="Rằn Street Cap – mẫu màu 4" style="background-image:url('https://drive.google.com/thumbnail?id=11FO7hae7IZHWepmRlZ-tc-M_tjH9Ptp_&sz=w80')"></button></div>
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550; margin-top: 4px">Phụ kiện</span>
+<span style="font-size: 18px; font-weight: 800">Rằn Street Cap</span>
+<span style="font-size: 17px; font-weight: 800; color: #B4483C">69.000đ</span>
 </div>
 </div>
-
 <div class="pcard rv" style="background: #FFFFFF; border: 2px solid #1A1A1A; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
-<div class="ran-sm" style="aspect-ratio: 1 / 1; display: flex; align-items: flex-end; padding: 10px; box-sizing: border-box">
-<span style="background: #FFFFFF; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px">[Ảnh đang cập nhật]</span>
+<img class="pimg" src="https://drive.google.com/thumbnail?id=1cbHCiJ12zvvC2hRPEHh2d56cbhB2O-l8&sz=w800" alt="Rằn Bucket Hat" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
+<div style="padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px">
+<div class="swatches" style="display: flex; gap: 6px; flex-wrap: wrap"><button type="button" class="sw on" data-src="https://drive.google.com/thumbnail?id=1cbHCiJ12zvvC2hRPEHh2d56cbhB2O-l8&sz=w800" aria-label="Rằn Bucket Hat – mẫu màu 1" style="background-image:url('https://drive.google.com/thumbnail?id=1cbHCiJ12zvvC2hRPEHh2d56cbhB2O-l8&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=199A9t7VesJ4qHfSrCdEj0Kvd5BXc-TcJ&sz=w800" aria-label="Rằn Bucket Hat – mẫu màu 2" style="background-image:url('https://drive.google.com/thumbnail?id=199A9t7VesJ4qHfSrCdEj0Kvd5BXc-TcJ&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1ygieoKCAm6QUi4yuOURr_08yzmfRQnjR&sz=w800" aria-label="Rằn Bucket Hat – mẫu màu 3" style="background-image:url('https://drive.google.com/thumbnail?id=1ygieoKCAm6QUi4yuOURr_08yzmfRQnjR&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1MqHVT2CvgGlUpKNBvYPXjcHe2YY-WDqs&sz=w800" aria-label="Rằn Bucket Hat – mẫu màu 4" style="background-image:url('https://drive.google.com/thumbnail?id=1MqHVT2CvgGlUpKNBvYPXjcHe2YY-WDqs&sz=w80')"></button></div>
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550; margin-top: 4px">Phụ kiện</span>
+<span style="font-size: 18px; font-weight: 800">Rằn Bucket Hat</span>
+<span style="font-size: 17px; font-weight: 800; color: #B4483C">99.000đ</span>
 </div>
-<div style="padding: 16px; display: flex; flex-direction: column; gap: 6px">
-<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550">Phụ kiện</span>
-<span style="font-size: 18px; font-weight: 800">Nón</span>
-<span style="font-size: 15px; font-weight: 700; color: #B4483C">[GIÁ BÁN]</span>
 </div>
-</div>
-
 <div class="pcard rv" style="background: #FFFFFF; border: 2px solid #1A1A1A; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
-<div class="ran-sm" style="aspect-ratio: 1 / 1; display: flex; align-items: flex-end; padding: 10px; box-sizing: border-box">
-<span style="background: #FFFFFF; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px">[Ảnh đang cập nhật]</span>
+<img class="pimg" src="https://drive.google.com/thumbnail?id=13CcBRPFAZpjnQ6H7nLMf76SOSMePkRas&sz=w800" alt="Rằn Mini Bag" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
+<div style="padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px">
+<div class="swatches" style="display: flex; gap: 6px; flex-wrap: wrap"><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1xwTAgqLejkmKrp0-CSt_ld3DBUA98O9f&sz=w800" aria-label="Rằn Mini Bag – mẫu màu 1" style="background-image:url('https://drive.google.com/thumbnail?id=1xwTAgqLejkmKrp0-CSt_ld3DBUA98O9f&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1llgCG09cGlpYpSovYGOpOKCLJxMexVoS&sz=w800" aria-label="Rằn Mini Bag – mẫu màu 2" style="background-image:url('https://drive.google.com/thumbnail?id=1llgCG09cGlpYpSovYGOpOKCLJxMexVoS&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1skZAmC-iVo-Ra2SbZK778Hkb-VYCTDZ8&sz=w800" aria-label="Rằn Mini Bag – mẫu màu 3" style="background-image:url('https://drive.google.com/thumbnail?id=1skZAmC-iVo-Ra2SbZK778Hkb-VYCTDZ8&sz=w80')"></button><button type="button" class="sw on" data-src="https://drive.google.com/thumbnail?id=13CcBRPFAZpjnQ6H7nLMf76SOSMePkRas&sz=w800" aria-label="Rằn Mini Bag – mẫu màu 4" style="background-image:url('https://drive.google.com/thumbnail?id=13CcBRPFAZpjnQ6H7nLMf76SOSMePkRas&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1VSyf6blcKMya1BSknLx8fu_83HcuBipm&sz=w800" aria-label="Rằn Mini Bag – mẫu màu 5" style="background-image:url('https://drive.google.com/thumbnail?id=1VSyf6blcKMya1BSknLx8fu_83HcuBipm&sz=w80')"></button></div>
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550; margin-top: 4px">Túi</span>
+<span style="font-size: 18px; font-weight: 800">Rằn Mini Bag</span>
+<span style="font-size: 17px; font-weight: 800; color: #B4483C">79.000đ</span>
 </div>
-<div style="padding: 16px; display: flex; flex-direction: column; gap: 6px">
-<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550">Phụ kiện</span>
-<span style="font-size: 18px; font-weight: 800">Băng đô</span>
-<span style="font-size: 15px; font-weight: 700; color: #B4483C">[GIÁ BÁN]</span>
 </div>
-</div>
-
 <div class="pcard rv" style="background: #FFFFFF; border: 2px solid #1A1A1A; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
-<div class="ran-sm" style="aspect-ratio: 1 / 1; display: flex; align-items: flex-end; padding: 10px; box-sizing: border-box">
-<span style="background: #FFFFFF; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px">[Ảnh đang cập nhật]</span>
+<img class="pimg" src="https://drive.google.com/thumbnail?id=1oJSWMIKUP7RvNOMTDtuZyPUBd0_Oei2e&sz=w800" alt="Rằn Daily Tote 1" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
+<div style="padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px">
+<div class="swatches" style="display: flex; gap: 6px; flex-wrap: wrap"><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1o8BuXlqSS_K8o8QnyrmqzD8FTnpeRCLz&sz=w800" aria-label="Rằn Daily Tote 1 – mẫu màu 1" style="background-image:url('https://drive.google.com/thumbnail?id=1o8BuXlqSS_K8o8QnyrmqzD8FTnpeRCLz&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1y0lFp0QkU8lPLNomI8zvHaV45x6cgGtS&sz=w800" aria-label="Rằn Daily Tote 1 – mẫu màu 2" style="background-image:url('https://drive.google.com/thumbnail?id=1y0lFp0QkU8lPLNomI8zvHaV45x6cgGtS&sz=w80')"></button><button type="button" class="sw on" data-src="https://drive.google.com/thumbnail?id=1oJSWMIKUP7RvNOMTDtuZyPUBd0_Oei2e&sz=w800" aria-label="Rằn Daily Tote 1 – mẫu màu 3" style="background-image:url('https://drive.google.com/thumbnail?id=1oJSWMIKUP7RvNOMTDtuZyPUBd0_Oei2e&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1NEjMljCljJu2gZYb8Q2oaB07PWeKjLqJ&sz=w800" aria-label="Rằn Daily Tote 1 – mẫu màu 4" style="background-image:url('https://drive.google.com/thumbnail?id=1NEjMljCljJu2gZYb8Q2oaB07PWeKjLqJ&sz=w80')"></button></div>
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550; margin-top: 4px">Túi</span>
+<span style="font-size: 18px; font-weight: 800">Rằn Daily Tote 1</span>
+<span style="font-size: 17px; font-weight: 800; color: #B4483C">199.000đ</span>
 </div>
-<div style="padding: 16px; display: flex; flex-direction: column; gap: 6px">
-<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550">Phụ kiện</span>
-<span style="font-size: 18px; font-weight: 800">Quai túi</span>
-<span style="font-size: 15px; font-weight: 700; color: #B4483C">[GIÁ BÁN]</span>
 </div>
-</div>
-
 <div class="pcard rv" style="background: #FFFFFF; border: 2px solid #1A1A1A; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
-<div class="ran-sm" style="aspect-ratio: 1 / 1; display: flex; align-items: flex-end; padding: 10px; box-sizing: border-box">
-<span style="background: #FFFFFF; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px">[Ảnh đang cập nhật]</span>
+<img class="pimg" src="https://drive.google.com/thumbnail?id=1PY0K3Wlgm3pTHLiQV9WKM9q0S2bgAo-U&sz=w800" alt="Rằn Daily Tote 2" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
+<div style="padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px">
+<div class="swatches" style="display: flex; gap: 6px; flex-wrap: wrap"><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1B47BiklE1g7b9yG32QAFTSUmt1ngHj5g&sz=w800" aria-label="Rằn Daily Tote 2 – mẫu màu 1" style="background-image:url('https://drive.google.com/thumbnail?id=1B47BiklE1g7b9yG32QAFTSUmt1ngHj5g&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1syy-1thkV1V_4kLYEv-zsXUWHJEdBwxn&sz=w800" aria-label="Rằn Daily Tote 2 – mẫu màu 2" style="background-image:url('https://drive.google.com/thumbnail?id=1syy-1thkV1V_4kLYEv-zsXUWHJEdBwxn&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1xfXxA7rVlwPOVJVPkUin4YesgYGlM6E3&sz=w800" aria-label="Rằn Daily Tote 2 – mẫu màu 3" style="background-image:url('https://drive.google.com/thumbnail?id=1xfXxA7rVlwPOVJVPkUin4YesgYGlM6E3&sz=w80')"></button><button type="button" class="sw on" data-src="https://drive.google.com/thumbnail?id=1PY0K3Wlgm3pTHLiQV9WKM9q0S2bgAo-U&sz=w800" aria-label="Rằn Daily Tote 2 – mẫu màu 4" style="background-image:url('https://drive.google.com/thumbnail?id=1PY0K3Wlgm3pTHLiQV9WKM9q0S2bgAo-U&sz=w80')"></button></div>
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550; margin-top: 4px">Túi</span>
+<span style="font-size: 18px; font-weight: 800">Rằn Daily Tote 2</span>
+<span style="font-size: 17px; font-weight: 800; color: #B4483C">169.000đ</span>
 </div>
-<div style="padding: 16px; display: flex; flex-direction: column; gap: 6px">
-<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550">Trang phục</span>
-<span style="font-size: 18px; font-weight: 800">Áo dài</span>
-<span style="font-size: 15px; font-weight: 700; color: #B4483C">[GIÁ BÁN]</span>
 </div>
-</div>
-
 <div class="pcard rv" style="background: #FFFFFF; border: 2px solid #1A1A1A; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
-<div class="ran-sm" style="aspect-ratio: 1 / 1; display: flex; align-items: flex-end; padding: 10px; box-sizing: border-box">
-<span style="background: #FFFFFF; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px">[Ảnh đang cập nhật]</span>
+<img class="pimg" src="https://drive.google.com/thumbnail?id=1HN3sWOKPhYm5tBo3L6r_EXmBuD574b9h&sz=w800" alt="Rằn Daily Backpack" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
+<div style="padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px">
+<div class="swatches" style="display: flex; gap: 6px; flex-wrap: wrap"><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1cP93wVowsSt6wcCq0qvOV3fDfZGkV5Fz&sz=w800" aria-label="Rằn Daily Backpack – mẫu màu 1" style="background-image:url('https://drive.google.com/thumbnail?id=1cP93wVowsSt6wcCq0qvOV3fDfZGkV5Fz&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1Y9FDXhhJsyIDaF4wtEVRwW8Mx0MgT5S2&sz=w800" aria-label="Rằn Daily Backpack – mẫu màu 2" style="background-image:url('https://drive.google.com/thumbnail?id=1Y9FDXhhJsyIDaF4wtEVRwW8Mx0MgT5S2&sz=w80')"></button><button type="button" class="sw on" data-src="https://drive.google.com/thumbnail?id=1HN3sWOKPhYm5tBo3L6r_EXmBuD574b9h&sz=w800" aria-label="Rằn Daily Backpack – mẫu màu 3" style="background-image:url('https://drive.google.com/thumbnail?id=1HN3sWOKPhYm5tBo3L6r_EXmBuD574b9h&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1na-WHT4OAj5806HkXMOOQmyzftK-iyMw&sz=w800" aria-label="Rằn Daily Backpack – mẫu màu 4" style="background-image:url('https://drive.google.com/thumbnail?id=1na-WHT4OAj5806HkXMOOQmyzftK-iyMw&sz=w80')"></button></div>
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550; margin-top: 4px">Túi</span>
+<span style="font-size: 18px; font-weight: 800">Rằn Daily Backpack</span>
+<span style="font-size: 17px; font-weight: 800; color: #B4483C">199.000đ</span>
 </div>
-<div style="padding: 16px; display: flex; flex-direction: column; gap: 6px">
-<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550">Trang phục</span>
-<span style="font-size: 18px; font-weight: 800">Áo bà ba</span>
-<span style="font-size: 15px; font-weight: 700; color: #B4483C">[GIÁ BÁN]</span>
 </div>
-</div>
-
 <div class="pcard rv" style="background: #FFFFFF; border: 2px solid #1A1A1A; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
-<img src="https://drive.google.com/thumbnail?id=1U0QN1Ix8AMIX8wAxDMF4a_teIQJprQ6V&sz=w600" alt="Lồng đèn" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
-<div style="padding: 16px; display: flex; flex-direction: column; gap: 6px">
-<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550">Trang trí</span>
-<span style="font-size: 18px; font-weight: 800">Lồng đèn</span>
-<span style="font-size: 15px; font-weight: 700; color: #B4483C">[GIÁ BÁN]</span>
+<img class="pimg" src="https://drive.google.com/thumbnail?id=1mVVxcd6t776eFakyMBIX2KHhELrHxkRu&sz=w800" alt="Rằn Peplum Top" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
+<div style="padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px">
+<div class="swatches" style="display: flex; gap: 6px; flex-wrap: wrap"><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1N7BUzwhk7U20r4jYC5Y0mYarKHst6jxw&sz=w800" aria-label="Rằn Peplum Top – mẫu màu 1" style="background-image:url('https://drive.google.com/thumbnail?id=1N7BUzwhk7U20r4jYC5Y0mYarKHst6jxw&sz=w80')"></button><button type="button" class="sw on" data-src="https://drive.google.com/thumbnail?id=1mVVxcd6t776eFakyMBIX2KHhELrHxkRu&sz=w800" aria-label="Rằn Peplum Top – mẫu màu 2" style="background-image:url('https://drive.google.com/thumbnail?id=1mVVxcd6t776eFakyMBIX2KHhELrHxkRu&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1eSaIO7DEXp51n1FYg9ybhqAZw3DZUxbc&sz=w800" aria-label="Rằn Peplum Top – mẫu màu 3" style="background-image:url('https://drive.google.com/thumbnail?id=1eSaIO7DEXp51n1FYg9ybhqAZw3DZUxbc&sz=w80')"></button><button type="button" class="sw" data-src="https://drive.google.com/thumbnail?id=1gTmI4KN55-IXmwP1V8v4ItjSqCczgEcQ&sz=w800" aria-label="Rằn Peplum Top – mẫu màu 4" style="background-image:url('https://drive.google.com/thumbnail?id=1gTmI4KN55-IXmwP1V8v4ItjSqCczgEcQ&sz=w80')"></button></div>
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550; margin-top: 4px">Trang phục</span>
+<span style="font-size: 18px; font-weight: 800">Rằn Peplum Top</span>
+<span style="font-size: 17px; font-weight: 800; color: #B4483C">149.000đ</span>
 </div>
 </div>
-
-<div class="pcard rv" style="background: #FFFFFF; border: 2px solid #1A1A1A; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
-<img src="https://drive.google.com/thumbnail?id=16wjReUeA5uUoJOzG-WY5HWt9Z24wzeST&sz=w600" alt="Vải khăn rằn" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block">
-<div style="padding: 16px; display: flex; flex-direction: column; gap: 6px">
-<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5C5550">Trang trí</span>
-<span style="font-size: 18px; font-weight: 800">Khăn trải bàn</span>
-<span style="font-size: 15px; font-weight: 700; color: #B4483C">[GIÁ BÁN]</span>
-</div>
-</div>
-
 </div>
 </section>
 
@@ -318,9 +306,7 @@ figure:hover img{transform:scale(1.04)}
 <input name="sdt" required type="tel" pattern="[0-9 +.]{9,15}" placeholder="09xx xxx xxx" style="font: inherit; font-weight: 400; padding: 14px 16px; border: 1px solid #BFB4A6; border-radius: 12px; min-height: 48px; box-sizing: border-box">
 </label>
 <label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; font-weight: 600">Sản phẩm quan tâm
-<select name="san_pham" style="font: inherit; font-weight: 400; padding: 14px 16px; border: 1px solid #BFB4A6; border-radius: 12px; min-height: 48px; background: #FFFFFF">
-<option>Khăn quàng cổ</option><option>Túi xách</option><option>Balo</option><option>Nón</option><option>Băng đô</option><option>Áo dài</option><option>Áo bà ba</option><option>Khác</option>
-</select>
+<select name="san_pham" style="font: inherit; font-weight: 400; padding: 14px 16px; border: 1px solid #BFB4A6; border-radius: 12px; min-height: 48px; background: #FFFFFF"><option>Rằn Signature Scarf – 49.000đ</option><option>Rằn Tie – 29.000đ</option><option>Rằn Street Cap – 69.000đ</option><option>Rằn Bucket Hat – 99.000đ</option><option>Rằn Mini Bag – 79.000đ</option><option>Rằn Daily Tote 1 – 199.000đ</option><option>Rằn Daily Tote 2 – 169.000đ</option><option>Rằn Daily Backpack – 199.000đ</option><option>Rằn Peplum Top – 149.000đ</option><option>Khác</option></select>
 </label>
 <label style="display: flex; gap: 10px; align-items: center; font-size: 15px">
 <input name="nhan_tin" value="Có" type="checkbox" checked style="width: 20px; height: 20px; accent-color: #1A1A1A">
@@ -401,6 +387,15 @@ f.addEventListener('submit', async (e) => {
   };
   addEventListener('scroll', onScroll, { passive: true }); onScroll();
 })();
+</script>
+<script>
+document.querySelectorAll('.pcard').forEach((c) => {
+  const img = c.querySelector('.pimg');
+  c.querySelectorAll('.sw').forEach((b) => b.addEventListener('click', () => {
+    c.querySelectorAll('.sw').forEach((x) => x.classList.remove('on')); b.classList.add('on');
+    img.style.opacity = 0; setTimeout(() => { img.src = b.dataset.src; img.onload = () => (img.style.opacity = 1); }, 180);
+  }));
+});
 </script>
 </body>
 </html>
